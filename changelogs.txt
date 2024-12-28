@@ -30,7 +30,9 @@ Device Changes:
 - No Aperture Cam
 - Status bar padding adjusted by default
 
-
+Notes:
+-Dirty Flashable over previous initial build 
+-Evolution recovery supports stock ota flashing [reverting]
 
 ** Warning for New Comers **
 
@@ -39,5 +41,5 @@ Check before proceeding to custom roms:
 adb reboot fastboot
 fastboot devices
 
-if it doesn't detects devices then install proper drivers first.
+if it doesn't detects your device then install proper drivers first.
 
