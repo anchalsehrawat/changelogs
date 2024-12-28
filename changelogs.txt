@@ -31,8 +31,9 @@ Device Changes:
 - Status bar padding adjusted by default
 
 Notes:
--Dirty Flashable over previous initial build 
--Evolution recovery supports stock ota flashing [reverting]
+- Dirty Flashable over previous initial build 
+- Evolution recovery supports stock ota flashing [reverting]
+- Vanilla Build supports MicroG. Separate Gapp-Addons might crash.
 
 ** Warning for New Comers **
 
