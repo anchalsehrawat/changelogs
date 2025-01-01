@@ -1,10 +1,48 @@
-----Disclaimer----
+## Warning for New Comers ##
+ 
+1. Don't Downgrade/Flash OOS13.1 for reverting or if device Bootloader is unlocked. 
+OOS13.1 in CPH2569-OPN. CE3(ziti) doesn't support Bootloader Mode/Unlocking and will hard brick device. 
+
+2. Check before proceeding to custom roms:
+
+adb reboot fastboot
+fastboot devices
+
+if it doesn't detects your device then install proper drivers first.
+
+--------------------------------------Disclaimer------------------------------------------
 
 You're responsible for any messup, issues or anything you do with your device and NOT me.
 - Loid
 ------------------------------------------------------------------------------------------
 
-Changelogs
+
+## Changelogs ##
+
+01-01-2025 [Happy New Year]
+
+Source:
+* Add back QS tile customization 
+* Add back QS panel styles
+* Add back QS tile styles (A11)
+* Add back volume steps
+* Add back showing ambient instead of fully waking
+* Add back auto aod schedule
+* Add back auto dim schedule
+* Add back floating rotation toggle
+* Fix volume slider haptic feedback 
+* Fix google battery widget
+
+Device:
+- Removed Aperture
+- Tried to fix Lockscreen Charging info
+- Enable Vibration in Oplus cam [Mock LinearMotor]
+- Enable Burn-in Protection (if it works)
+
+Notes: 
+~ Dirty Flash possible: Gapps over Gapps build and vanilla over vanilla only.
+
+
 
 28-12-2024
 
@@ -31,16 +69,6 @@ Device Changes:
 - Status bar padding adjusted by default
 
 Notes:
-- Dirty Flashable over previous initial build 
-- Evolution recovery supports stock ota flashing [reverting]
-- Vanilla Build supports MicroG. Separate Gapp-Addons might crash.
-
-** Warning for New Comers **
-
-Check before proceeding to custom roms:
-
-adb reboot fastboot
-fastboot devices
-
-if it doesn't detects your device then install proper drivers first.
-
+~ Dirty Flashable over previous initial build 
+~ Evolution recovery supports stock ota flashing [reverting]
+~ Vanilla Build supports MicroG. Separate Gapp-Addons might crash.
