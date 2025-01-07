@@ -19,6 +19,30 @@ You're responsible for any messup, issues or anything you do with your device an
 
 ## Changelogs ##
 
+07-01-2025
+
+Source:
+* Lockscreen weather
+* Quick tap
+* QS data usage
+* Status bar clock mods
+* Status bar logo
+* Colored status bar icons
+* Status bar notif count
+* Pulse visualization
+* Boot animation styles have returned to Android 15!
+Almost every A14 feature is now available again in Android 15 QPR1! 
+
+Device:
+- Switch to oss audio HAL (PJGowtham reverse engineered the LVACFS feature from prebuilt audio HAL)
+- Syned with latest vendor side changes
+
+Notes:
+~ Dirty flash should work: gapps over gapps and vanilla over vanilla build.
+
+
+
+
 01-01-2025 [Happy New Year]
 
 Source:
