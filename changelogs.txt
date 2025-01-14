@@ -19,6 +19,23 @@ You're responsible for any messup, issues or anything you do with your device an
 
 ## Changelogs ##
 
+14-01-2025
+
+Source:
+* Jan sp 
+* Button navigation system crash fixed
+* Bug Fixes & Improvements etc...
+
+Device:
+- Added Rookery font
+- Added Viper4AndroidFX 
+- Tried to fix: OPlus Cam & screen recorder (Thanks to @Megalodonzs)
+- Merged latest lineage Changes(OMX removal, switching to c2 media)
+
+Notes:
+~ Dirty should work, still keep things backed up.
+
+
 07-01-2025
 
 Source:
